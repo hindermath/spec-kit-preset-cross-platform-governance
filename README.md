@@ -49,7 +49,7 @@ implementation and functional parity.*
 - Wrapper für `speckit.specify`, `speckit.plan` und `speckit.tasks`
 - Templates für Script-Parity-Checkliste, Unix-Manpage und bilinguale
   PowerShell-Hilfe
-- auditfähige Spec-Kit-Run-Evidence-Felder für Anwendbarkeit, N/A-Begründung,
+- auditfähige Spec-Kit-Run-Evidence-Felder für Anwendbarkeit, `N/A`-Begründung,
   Reviewer, Evidence-Pfad, Restrisiko und Follow-up
 
 *The preset provides addenda for the main Spec-Kit artifacts and agent
@@ -69,14 +69,14 @@ merge, deployment, or provider-administration authority.*
 
 ## Voraussetzungen / Prerequisites
 
-1. kompatible GitHub Spec Kit CLI;
+1. kompatible GitHub Spec-Kit CLI;
 2. gültige Spec-Kit-Integration im Ziel-Repository;
 3. versionierte Constitution und Agent-Guidance;
 4. Zielplattformen und unterstützte Shells sind benannt;
 5. Dokumentationsorte sind geklärt, standardmäßig `docs/man/` und
    `docs/cross-platform/`.
 
-*Before installation, use a compatible GitHub Spec Kit CLI, a valid Spec-Kit
+*Before installation, use a compatible GitHub Spec-Kit CLI, a valid Spec-Kit
 integration, versioned constitution and agent guidance, named target
 platforms and supported shells, and clear documentation locations.*
 
@@ -149,10 +149,11 @@ considered both accessible and cross-platform.*
 - `man-page-template`
 - `powershell-help-template`
 
-Default evidence locations:
+Standard-Evidence-Orte / Default evidence locations:
 
-- man-pages: `docs/man/<name>.1`
-- parity checklists: `docs/cross-platform/` or alongside the script
+- Manpages / man pages: `docs/man/<name>.1`
+- Paritätschecklisten / parity checklists: `docs/cross-platform/` oder
+  neben dem Skript / or alongside the script
 
 ## Prüfung / Verification
 
@@ -198,12 +199,12 @@ Cmdlet-Namen.
 ## Version 0.2.0 / Version 0.2.0
 
 `v0.2.0` ergänzt auditfähige Spec-Kit-Run-Evidence-Felder, damit generierte
-Markdown-Dokumente und Checklisten Anwendbarkeit, N/A-Begründung, Reviewer,
+Markdown-Dokumente und Checklisten Anwendbarkeit, `N/A`-Begründung, Reviewer,
 Evidence-Pfad, Restrisiko und Follow-up pro standardsrelevantem Spec-Kit-Lauf
 aufzeichnen können.
 
 *`v0.2.0` adds audit-ready Spec-Kit run evidence fields so generated Markdown
-documents and checklists can record applicability, N/A rationale, reviewer,
+documents and checklists can record applicability, `N/A` rationale, reviewer,
 evidence path, residual risk, and follow-up per standards-relevant Spec-Kit
 run.*
 
