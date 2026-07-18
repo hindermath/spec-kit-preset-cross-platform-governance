@@ -91,6 +91,6 @@ When not to use:
 - The preset does not grant repository, remote, merge, deployment, or
   provider-administration authority.
 
-Release notes:
+## Release Notes
 
 - `v0.2.0` adds audit-ready Spec-Kit run evidence fields so generated Markdown documents and checklists can record applicability, N/A rationale, reviewer, evidence path, residual risk, and follow-up per standards-relevant Spec-Kit run.
