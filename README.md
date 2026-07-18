@@ -3,8 +3,8 @@
 Version: `0.2.0`
 Status: published, standard governance preset
 Priority: `50`
-Requires: Spec Kit `>=0.8.0` (uses the `wrap` and `append` composition
-strategies introduced in 0.8.x)
+Requires: Spec-Kit `>=0.8.0` (uses the `wrap` and `append` composition
+strategies introduced in 0.8.x).
 
 ## Purpose / Zweck
 
@@ -85,7 +85,7 @@ When not to use:
 
 ## Safety / Grenzen
 
-- Installation adds parity rules, templates, and wrapped Spec Kit command
+- Installation adds parity rules, templates, and wrapped Spec-Kit command
   guidance; it does not rewrite scripts or execute platform tests by itself.
 - Cross-platform support claims require actual Bash and PowerShell evidence.
 - The preset does not grant repository, remote, merge, deployment, or
@@ -94,7 +94,3 @@ When not to use:
 Release notes:
 
 - `v0.2.0` adds audit-ready Spec-Kit run evidence fields so generated Markdown documents and checklists can record applicability, N/A rationale, reviewer, evidence path, residual risk, and follow-up per standards-relevant Spec-Kit run.
-
-Recommended standalone install priority:
-
-- `25`
