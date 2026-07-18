@@ -1,16 +1,32 @@
 # Cross-Platform Governance Preset
 
 Version: `0.2.0`
-Requires: `spec-kit >= 0.8.0` (uses the `wrap` and `append` composition
-strategies introduced in 0.8.x).
+Status: published, standard governance preset
+Priority: `50`
+Requires: Spec Kit `>=0.8.0` (uses the `wrap` and `append` composition
+strategies introduced in 0.8.x)
 
-Purpose:
+## Purpose / Zweck
 
 - enforce that every script-shaped tool ships in both Bash and
   PowerShell variants with full parity
 - enforce that each variant ships with proper documentation: a Unix
   man-page for Bash, bilingual comment-based help for PowerShell, and a
   `Verb-Noun` Cmdlet alias
+
+## Install
+
+```bash
+specify preset add \
+  --from https://github.com/hindermath/spec-kit-preset-cross-platform-governance/archive/refs/tags/v0.2.0.zip \
+  --priority 50
+specify preset info cross-platform-governance
+```
+
+```bash
+specify preset add --dev /path/to/cross-platform-governance --priority 50
+specify preset info cross-platform-governance
+```
 
 Primary source chapter from `home-baseline` constitution:
 
@@ -66,6 +82,14 @@ When not to use:
 
 - projects targeting only a single OS with no plan to support others
 - repositories with no script-shaped tooling
+
+## Safety / Grenzen
+
+- Installation adds parity rules, templates, and wrapped Spec Kit command
+  guidance; it does not rewrite scripts or execute platform tests by itself.
+- Cross-platform support claims require actual Bash and PowerShell evidence.
+- The preset does not grant repository, remote, merge, deployment, or
+  provider-administration authority.
 
 Release notes:
 
