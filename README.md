@@ -1,6 +1,6 @@
 # Cross-Platform Governance Preset
 
-Version: `0.2.0`
+Version: `0.2.1`
 Status: published, standard governance preset
 Priority: `50`
 Requires: Spec-Kit `>=0.8.0` (uses the `wrap` and `append` composition
@@ -86,7 +86,7 @@ platforms and supported shells, and clear documentation locations.*
 
 ```bash
 specify preset add \
-  --from https://github.com/hindermath/spec-kit-preset-cross-platform-governance/archive/refs/tags/v0.2.0.zip \
+  --from https://github.com/hindermath/spec-kit-preset-cross-platform-governance/archive/refs/tags/v0.2.1.zip \
   --priority 50
 specify preset info cross-platform-governance
 ```
@@ -195,6 +195,14 @@ Cmdlet-Namen.
 - Cross-platform support claims require actual Bash and PowerShell evidence.
 - The preset does not grant repository, remote, merge, deployment, or
   provider-administration authority.
+
+## Version 0.2.1 / Version 0.2.1
+
+`v0.2.1` ergänzt read-only Check-Parität, Root-Dateipfadtests, explizit
+begrenzte native Overrides und eine klare Trennung von OS- und Providerbelegen.
+
+*`v0.2.1` adds read-only check parity, root-file path tests, explicitly scoped
+native overrides, and clear separation of operating-system and provider proof.*
 
 ## Version 0.2.0 / Version 0.2.0
 
