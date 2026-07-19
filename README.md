@@ -198,7 +198,7 @@ Cmdlet-Namen.
 
 ## Version 0.2.1 / Version 0.2.1
 
-`v0.2.1` ergaenzt read-only Check-Paritaet, Root-Dateipfadtests, explizit
+`v0.2.1` ergänzt read-only Check-Parität, Root-Dateipfadtests, explizit
 begrenzte native Overrides und eine klare Trennung von OS- und Providerbelegen.
 
 *`v0.2.1` adds read-only check parity, root-file path tests, explicitly scoped
