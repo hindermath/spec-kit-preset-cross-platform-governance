@@ -1,14 +1,23 @@
 # Cross-Platform Governance Preset
 
-Patch **0.2.3** liefert die verbesserte zweisprachige Einstiegs- und
-Kompositionsdokumentation. Verhalten und Berechtigungsgrenzen bleiben erhalten.
-[Release-Nachweis / Release record](docs/release-0.2.3-validation.md).
+<!-- current-package: 0.2.4 -->
 
-*Patch 0.2.3 packages the improved bilingual getting-started and composition
+**Leserpfad / Reader path:** [Deutsch: Einstieg, Begriffe und Fehlerhilfe](docs/user-guide.md) · [English: start, terms and troubleshooting](docs/user-guide.EN.md).
+
+Quellkandidat **v0.2.4**. Der [Release-Stand](https://github.com/hindermath/spec-kit-preset-cross-platform-governance/releases) wird getrennt geprüft; ein Commit auf main ist noch keine Veröffentlichung oder Installation.
+
+*Source candidate v0.2.4. The release page records actual publication separately; a main-branch commit is not publication or installation.*
+
+
+Patch **0.2.4** liefert die verbesserte zweisprachige Einstiegs- und
+Kompositionsdokumentation. Verhalten und Berechtigungsgrenzen bleiben erhalten.
+[Release-Nachweis / Release record](docs/release-0.2.4-validation.md).
+
+*Patch 0.2.4 packages the improved bilingual getting-started and composition
 guide. Behavior and authority boundaries remain unchanged.*
 
-Version: `0.2.3`
-Status: published, standard governance preset
+Version: `0.2.4`
+Status: Quellkandidat zur Sichtung / source candidate for review
 Priority: `50`
 Requires: Spec-Kit `>=0.8.0` (uses the `wrap` and `append` composition
 strategies introduced in `0.8.x`).
@@ -145,7 +154,7 @@ platforms and supported shells, and clear documentation locations.*
 ### Veröffentlichter Tag / Published Tag
 
 ```bash
-specify preset add --from https://github.com/hindermath/spec-kit-preset-cross-platform-governance/archive/refs/tags/v0.2.3.zip --priority 50
+specify preset add --from https://github.com/hindermath/spec-kit-preset-cross-platform-governance/archive/refs/tags/v0.2.4.zip --priority 50
 specify preset info cross-platform-governance
 ```
 
