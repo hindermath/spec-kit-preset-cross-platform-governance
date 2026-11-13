@@ -1,10 +1,10 @@
 # Cross-Platform Governance Preset
 
-<!-- current-package: 0.2.5 -->
+<!-- current-package: 0.2.6 -->
 
-Paketkennung: **v0.2.5**. [Vorbereitung und Veröffentlichungsgrenze](docs/release-0.2.5-validation.md). Die Release-Seite und der externe Archivnachweis belegen die Veröffentlichung, nicht dieser Vorbereitungsstand. Frühere Versionsnachweise unten bleiben historisch.
+Paketkennung: **v0.2.6**. [Vorbereitung und Veröffentlichungsgrenze](docs/release-0.2.6-validation.md). Die Release-Seite und der externe Archivnachweis belegen die Veröffentlichung, nicht dieser Vorbereitungsstand. Frühere Versionsnachweise unten bleiben historisch.
 
-<span lang="en">Package identity: v0.2.5. The release page and external archive evidence prove publication, not this preparation snapshot. Earlier version records below remain historical.</span>
+<span lang="en">Package identity: v0.2.6. The release page and external archive evidence prove publication, not this preparation snapshot. Earlier version records below remain historical.</span>
 
 [Release-Abschluss und Verbesserungsprofil / Publication closeout and improvement profile](docs/release-0.2.4-validation.md).
 
@@ -164,7 +164,7 @@ platforms and supported shells, and clear documentation locations.*
 ### Veröffentlichter Tag / Published Tag
 
 ```bash
-specify preset add --from https://github.com/hindermath/spec-kit-preset-cross-platform-governance/archive/refs/tags/v0.2.5.zip --priority 50
+specify preset add --from https://github.com/hindermath/spec-kit-preset-cross-platform-governance/archive/refs/tags/v0.2.6.zip --priority 50
 specify preset info cross-platform-governance
 ```
 

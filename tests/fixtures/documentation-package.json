@@ -1,6 +1,6 @@
 {
   "id": "cross-platform-governance",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "priority": 50,
   "readers": [
     "docs/user-guide.md",
